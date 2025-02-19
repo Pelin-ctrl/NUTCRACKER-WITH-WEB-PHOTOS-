@@ -1,0 +1,1859 @@
+body{
+    background: #0F184E;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    overflow-x: hidden;
+   
+ }
+ img{
+    overflow: hidden;
+ }
+
+.name {
+    text-align: center;
+    margin-top: 5vw;
+}
+
+.name h2 {
+    font-size: 36px; 
+    font-family: 'YesevaOne'; 
+    color: #fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(211, 224, 251, 0.3); 
+}
+
+.snowflakes-container{
+    position: absolute;
+    top: 12vw;
+    left: 0;
+    right: 0;
+    bottom: 1vw;
+    pointer-events: none; 
+    z-index: 10;
+}
+.snowflakes-container img{
+    width: 6vw;
+}
+.snowflakes1{
+    position: absolute;
+    top: -10px; 
+    opacity: 0.8;
+    animation: fall 5s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes22{
+    position: absolute;
+    top: -2vw;
+    left: 16vh;
+    opacity: 0.8;
+    animation: fall 8s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes33{
+    position: absolute;
+    top: -8vw;
+    left: 45vh;
+    width: 20%;
+    opacity: 0.8;
+    animation: fall 10s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes44{
+    position: absolute;
+    top: -8vw;
+    left: 67vh;
+    opacity: 0.8;
+    animation: fall 6s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes55{
+    position: absolute;
+    top: -8vw;
+    left: 97vh;
+    opacity: 0.8;
+    animation: fall 11s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes66{
+    position: absolute;
+    top: -8vw;
+    left: 120vh;
+    opacity: 0.8;
+    animation: fall 8s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+.snowflakes77{
+    position: absolute;
+    top: -8vw;
+    left: 150vh;
+    opacity: 0.8;
+    animation: fall 5s linear infinite, drift 3s linear infinite;
+}
+@keyframes fall {
+    0% {
+        top: -10px; /* Начинаем сверху */
+        opacity: 0.8;
+    }
+    100% {
+        top: 22vh; /* Заканчиваем у нижнего края экрана */
+        opacity: 3; /* Снежинка становится невидимой */
+    }
+}
+@keyframes drift {
+    0% {
+        left: calc(100% * random); /* Случайное стартовое положение по горизонтали */
+    }
+    50% {
+        left: calc(100% * random); /* Случайное смещение в середине */
+    }
+    100% {
+        left: calc(100% * random); /* И снова случайное положение */
+    }
+}
+
+.dedahoho{
+    position: absolute;
+    top: 40vw;
+    left: 78vw; /* Начальная позиция слева за пределами экрана */
+    animation: fly 10s linear infinite, float 3s ease-in-out infinite;
+}
+
+.dedahoho img{
+    width: 14vw;
+}
+.deda{
+    position: relative;
+    height: 100vh; /* Высота экрана */
+}
+@keyframes fly {
+    0% {
+        left: -200vh; /* Начало за пределами экрана слева */
+        top: 10vh; /* Начальная высота */
+        transform: rotate(0deg); /* Начальный угол наклона */
+    }
+    50% {
+        left: 50vh; /* Середина экрана */
+        top: 16vh; /* Поднимемся немного выше */
+        transform: rotate(0deg); /* Немного наклоняемся вправо */
+    }
+    100% {
+        left: 200vh; /* Достигаем правого края экрана */
+        top: 1vh; /* Снижаем обратно */
+        transform: rotate(0deg); /* Возвращаемся в нормальное положение */
+    }
+}
+
+/* Плавное колебание для эффекта парения */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0); /* Начальное и конечное положение */
+    }
+    50% {
+        transform: translateY(-10px); /* Немного поднимем его вверх в середине анимации */
+    }
+}
+.mymoon{
+    position: absolute;
+    top: 10vw; 
+    left:91vw;
+}
+.mymoon img{
+    width: 6vw;
+    transform: rotate(360deg)
+}
+.flakeone{
+    position: absolute;
+    top: 12vw;
+    left: 0vw;
+    right: 0;
+    bottom: 1vw;
+    pointer-events: none; 
+    z-index: 10;
+}
+
+.onemore img{
+    width: 3vw;
+}
+.onemore{
+    position: absolute;
+    top: 1vw; 
+    left: 34vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.secondmore img{
+    width: 3vw;
+}
+.secondmore{
+    position: absolute;
+    top: 5vw; 
+    left: 48vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.thirdmore img{
+    width: 3vw;
+}
+.thirdmore{
+    position: absolute;
+    top: 2vw; 
+    left: 63vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.fourthmore img{
+    width: 3vw;
+}
+.fourthmore{
+    position: absolute;
+    top: 5vw; 
+    left: 79vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.fifthmore img{
+    width: 3vw;
+}
+.fifthmore{
+    position: absolute;
+    top: 5vw; 
+    left: 18vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.sixthmore img{
+    width: 3vw;
+}
+.sixthmore{
+    position: absolute;
+    top: 0vw; 
+    left: 6vw;
+    opacity: 0.8;
+    animation: spin 2s linear infinite;
+    
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg); /* Начальная позиция */
+    }
+    to {
+        transform: rotate(360deg); /* Полный оборот */
+    }
+}
+.treey img{
+    z-index: 108;
+    position: absolute;
+    width: 13vw;
+    top: 28vw;
+    left: 89.6vw;
+    overflow-x: hidden;
+}
+
+.homes1 img{
+    position: relative;
+    width: 11vw;
+        
+}
+.firsthome img{
+    z-index: 11;
+    position: absolute;
+    top: 20.1vw; 
+    left:0.1vw;
+    transition: opacity 0.3s ease;
+}   
+.firsthome2 img {
+    z-index:10;
+    top:20.1vw;
+    left:0.1vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes1:hover .firsthome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes1:hover .firsthome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes2 img{
+    position: relative;
+    width: 17.6vw;
+        
+}
+.secondhome img{
+    z-index: 13;
+    position: absolute;
+    top: 35.8vw; 
+    left: 8.2vw;
+    transition: opacity 0.3s ease;
+}   
+.secondhome2 img {
+    z-index:12;
+    top:35.8vw;
+    left: 8.2vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes2:hover .secondhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes2:hover .secondhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+
+
+.homes3 img{
+    position: relative;
+    width: 14vw;
+        
+}
+.thirdhome img{
+    z-index: 14;
+    position: absolute;
+    top: 14.9vw; 
+    left:22.81vw;
+    transition: opacity 0.3s ease;
+}   
+.thirdhome2 img {
+    z-index:13;
+    top: 14.9vw; 
+    left:22.81vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes3:hover .thirdhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes3:hover .thirdhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes4 img{
+    position: relative;
+    width: 18vw;
+}
+.fourthhome img{
+    z-index: 103;
+    position: absolute;
+    top: 18vw;
+    left:32.55vw;
+    transition: opacity 0.3s ease;
+}   
+.fourthhome2 img {
+    z-index:102;
+    top: 18vw;
+    left:32.55vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes4:hover .fourthhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes4:hover .forthuhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes5 img{
+    position: relative;
+    width: 21vw;
+}
+.fifthhome img{
+    z-index: 105;
+    position: absolute;
+    top: 22.6vw;
+    left:46.55vw;
+    transition: opacity 0.3s ease;
+}   
+.fifthhome2 img {
+    z-index:104;
+    top: 22.6vw;
+    left:46.55vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes5:hover .fifthhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes5:hover .fifthhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+
+.homes6 img{
+    position: relative;
+    width: 29vw;
+}
+.sixthhome img{
+    z-index: 107;
+    position: absolute;
+    top: 24.8vw;
+    left:63.55vw;
+    transition: opacity 0.3s ease;
+}   
+.sixthhome2 img {
+    z-index:106;
+    top: 24.8vw;
+    left:63.55vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes6:hover .sixthhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes6:hover .sixthhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes7 img{
+    position: relative;
+    width: 29vw;
+}
+.seventhhome img{
+    z-index: 21;
+    position: absolute;
+    top: 45.8vw;
+    left:35.55vw;
+    transition: opacity 0.3s ease;
+}   
+.seventhhome2 img {
+    z-index:20;
+    top: 45.8vw;
+    left:35.55vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes7:hover .seventhhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes7:hover .seventhhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes8 img{
+    position: relative;
+    width: 13vw;
+}
+.eightthhome img{
+    z-index: 109;
+    position: absolute;
+    top: 40.8vw;
+    left:61.3vw;
+    transition: opacity 0.3s ease;
+}   
+.eightthhome2 img {
+    z-index:108;
+    top: 40.8vw;
+    left:61.3vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes8:hover .eightthhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes8:hover .eightthhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes9 img{
+    position: relative;
+    width: 16vw;
+}
+.ninethhome img{
+    z-index: 111;
+    position: absolute;
+    top: 51.8vw;
+    left:71.8vw;
+    transition: opacity 0.3s ease;
+}   
+.ninethhome2 img {
+    z-index:110;
+    top: 51.8vw;
+    left:71.8vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes9:hover .ninethhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes9:hover .ninethhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.homes10 img{
+    position: relative;
+    width: 16vw;
+}
+.tenthhome img{
+    z-index: 113;
+    position: absolute;
+    top: 53.8vw;
+    left:84.8vw;
+    transition: opacity 0.3s ease;
+}   
+.tenthhome2 img {
+    z-index:112;
+    top: 53.8vw;
+    left:84.8vw;
+    position: absolute;
+    transition: opacity 0.3s ease;
+}
+    
+.homes10:hover .tenthhome {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.homes10:hover .tenthhome2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+
+.snowy img{
+    z-index: 20;
+    position: relative;
+    max-width: 1440px;
+    top: -45vh;
+    object-fit: cover;
+}
+.snowy2 img{
+    z-index: 140;
+    position: relative;
+    max-width: 1440px;
+    top: -104.5vh;
+    object-fit: cover;
+}
+.minibush{
+    position: absolute;
+    z-index: 170;
+    left: 58.6vw;
+    width: 16vw;
+    top: 57vw;
+}
+.snowyman{
+    position: absolute;
+    z-index: 173;
+    left: 5.6vw;
+    top: 46.8vw;
+}
+.snowyman img{
+    width: 27vw;
+}
+.rooftopr img{
+    position: absolute;
+    z-index: 173;       
+    width: 100vw;
+    top: 70vw;
+}
+.fire1 img{
+    z-index: 172;
+    position: absolute;
+    width: 15vw;
+    top: 69vw;
+    left: 62vw;
+    background-size: contain;
+    animation: explode 2s ease-in-out infinite;
+}
+@keyframes explode {
+    0% {
+        transform: scale(0);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+.fire2 img{
+    z-index: 172;
+    position: absolute;
+    width: 15vw;
+    top: 69vw;
+    left: 20vw;
+    background-size: contain;
+    animation: explode 2s ease-in-out infinite;
+}
+@keyframes explode {
+    0% {
+        transform: scale(0);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+.wall img{
+    z-index: 12;
+    position: absolute;
+    width: 100vw;
+    top: 135.1vw;
+   
+
+}
+.ramka img{
+    position: absolute;
+    z-index: 119;
+    width: 47.7vw;
+    top: 139.6vw;
+    left: 38vw;
+
+}
+.bublikbase img{
+    position: absolute;
+    z-index: 129;
+    width: 100vw;
+    top: 75vw;
+    
+}
+/* Общие стили для всех изображений */
+.bulbikmoy img, .bulbikmoy2 img { 
+    position: absolute;
+    z-index: 130;
+    width: 100vw;
+    top: 95vw;
+    opacity: 0;  /* Скрываем картинки по умолчанию */
+    animation: changeImages 4s infinite;  /* Анимация длится 4 секунды, повторяется бесконечно */
+}
+
+/* Анимация смены картинок */
+@keyframes changeImages {
+    0%, 100% {
+        opacity: 0;  /* Изображения невидимы в начале и в конце */
+    }
+    50% {
+        opacity: 1;  /* Изображения становятся видимыми на полпути анимации */
+    }
+}
+
+/* Для первой картинки: она появляется первой */
+.bulbikmoy img {
+    animation-delay: 0s;  /* Первая картинка появляется сразу */
+}
+
+/* Для второй картинки: она появляется через 2 секунды */
+.bulbikmoy2 img {
+    animation-delay: 2s;  /* Вторая картинка появляется позже, с задержкой 2 секунды */
+}
+
+/* Общие стили для всех изображений */
+.firsttree img, .secondtree img, .thirdtree img { 
+    position: absolute;
+    z-index: 160;
+    width: 52vw;          /* Ширина изображения 55% от ширины экрана */
+    top: 135vw;           /* Отступ сверху 135% от ширины экрана */
+    left: -4vw;           /* Отступ слева -5% от ширины экрана */
+    opacity: 0;           /* Изображения скрыты по умолчанию */
+    animation: changeImages 9s infinite;  /* Анимация длится 9 секунд, повторяется бесконечно */
+}
+
+/* Анимация смены картинок */
+@keyframes changeImages {
+    0%, 100% {
+        opacity: 1;  /* Изображения невидимы в начале и в конце */
+    }
+    33% {
+        opacity: 1;  /* Первое изображение становится видимым */
+    }
+    66% {
+        opacity: 0;  /* Первое изображение исчезает */
+    }
+    100% {
+        opacity: 1;  /* В конце становится видимым последнее изображение */
+    }
+}
+
+/* Для первого изображения (firsttree) */
+.firsttree img {
+    animation-delay: 0s;  /* Первое изображение появляется сразу */
+}
+
+/* Для второго изображения (secondtree) */
+.secondtree img {
+    animation-delay: 2s;  /* Второе изображение появляется через 3 секунды */
+}
+
+/* Для третьего изображения (thirdtree) */
+.thirdtree img {
+    animation-delay: 4s;  /* Третье изображение появляется через 6 секунд */
+}
+
+.caminbefore img{
+    position: absolute;
+    z-index: 159;
+    width: 37.1vw;
+    top:151.7vw;
+    left: 37vw;
+}
+/* Общие стили для всех изображений */
+.firebefore img, .fireafter img {
+    
+    position: absolute;
+    z-index: 160;
+    width: 11vw;
+    top: 182.98vw;
+    left: 47vw;
+    opacity: 0;  /* По умолчанию все изображения скрыты */
+    animation: fadeInOut 6s infinite;  /* Анимация для бесконечной смены изображений */
+}
+
+/* Описание анимации смены картинок */
+@keyframes fadeInOut {
+    0%, 100% {
+        opacity: 0;  /* Изображения невидимы в начале и в конце */
+        filter: blur(5px); /* Размытие в начале и в конце */
+    }
+    50% {
+        opacity: 1;  /* Изображение становится видимым на 50% времени анимации */
+        filter: blur(0); /* Изображение становится четким */
+    }
+}
+
+/* Для .firebefore, оно появляется в начале */
+.firebefore img {
+    animation-delay: 0s;  /* Это изображение появляется сразу */
+}
+
+/* Для .fireafter, оно появляется через 3 секунды */
+.fireafter img {
+    animation-delay: 3s;  /* Это изображение появляется с задержкой 3 секунды */
+}
+.mytable img{
+    position: absolute;
+    z-index: 159;
+    width: 28vw;
+    top: 179.7vw;
+    left: 72vw;
+}
+.florik{
+    overflow: hidden;
+    z-index: 12;
+    position: absolute;
+    width: 29vw;
+    top: 195.9vw;
+    left: 0vw;
+}
+.presentic img{
+    z-index: 162;
+    position: absolute;
+    width: 40vw;
+    top: 197vw;
+    left: 0vw;
+}
+.forfloors img{
+    z-index: 105;
+    position: absolute;
+    width: 89vw;
+    top: 197.7vw;
+    left: 12vw;
+}
+.woody img{
+    z-index: 120;
+    position: absolute;
+    width: 9.5vw;
+    top: 185.9vw;
+    left: 69.5vw;
+}
+.lighty img{
+    z-index: 172;
+    position: absolute;
+    width: 40vw;
+    top: 135.1vw;
+    left: 27.5vw;
+    opacity: 0;    /* Начальная прозрачность */
+    transform: scale(0.5); /* Начальный масштаб изображения */
+    animation: fallAndLight 3s ease-out forwards infinite;  /* Анимация падения */
+    filter: blur(5px); /* Размытие для начального эффекта */
+
+}
+@keyframes fallAndLight {
+    0% {
+        top: 135.1vw;
+        opacity: 0;
+        transform: scale(0.5);  /* Начинаем с уменьшенного изображения */
+        filter: blur(5px);  /* Начальное размытие */
+       
+    }
+    50% {
+        top: 135.1vw;
+        opacity: 0.8;
+        transform: scale(1.2); /* Немного увеличиваем изображение */
+        filter: blur(2px);  /* Уменьшаем размытие */
+        
+    }
+    100% {
+        top: 135.1vw;
+        opacity: 1;
+        transform: scale(1); /* Полный размер изображения */
+        filter: blur(0);  /* Изображение становится четким */
+        
+    }
+}
+.ckracker2 img{
+    z-index: 180;
+    position: absolute;
+    width: 6.8vw;
+    top: 186.3vw;
+    left: 52.5vw;
+}
+
+
+.nutty1 img {
+    overflow: hidden;
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: -3vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty2 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 10.6vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty3 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 24.2vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty4 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 37.9vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty5 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 51.6vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty6 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 65.3vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty7 img {
+    z-index: 200;
+    position: absolute;
+    width: 13vw;
+    top: 206.3vw;
+    left: 79.1vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+.nutty8 img {
+    z-index: 200;
+    position: absolute;
+    overflow: hidden;
+    width: 13vw;
+    top: 206.3vw;
+    left: 93vw;
+    animation: flip 1s infinite;  /* Анимация переворота с циклическим повторением */
+}
+
+/* Анимация переворота */
+@keyframes flip {
+    0% {
+        transform: rotate(0deg);  /* Начальная позиция (без поворота) */
+    }
+    50% {
+        transform: rotate(180deg);  /* Поворот на 180 градусов (перевернутое изображение) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Поворот на 360 градусов (возвращение в исходное положение) */
+    }
+}
+
+.back{
+    overflow: hidden;
+    z-index: 67;
+    position: absolute;
+    width: 100vw;
+    top: 203.3vw;
+}
+.nutbefore img {
+    z-index: 163;
+    position: absolute;
+    width: 45vw;
+    top: 230.3vw;
+    left: 26vw;
+    animation: swapImages 1s infinite;  /* Анимация смены картинок */
+}
+
+.nutafter img {
+    z-index: 163;
+    position: absolute;
+    width: 45vw;
+    top: 230.3vw;
+    left: 26vw;
+    animation: swapImages 1s infinite 0.7s;  /* Задержка на 0.5 секунды для второго изображения */
+}
+
+@keyframes swapImages {
+    0%, 100% {
+        opacity: 1;  /* Изображение видно */
+    }
+    50% {
+        opacity: 0;  /* Изображение исчезает на полпути */
+    }
+}
+.nutsfallapart img {
+    z-index: 83;
+    position: absolute;
+    width: 92vw;
+    top: 222.9vw;
+    left: 2vw;
+    animation: appearFromInside 1s ease-out forwards infinite 0.7s; /* Анимация, продолжающаяся 2 секунды */
+}
+
+@keyframes appearFromInside {
+    0% {
+        transform: scale(0) translateY(50%);  /* Начинаем с нулевого размера и сдвигаем вниз */
+        opacity: 0;  /* Полностью прозрачное */
+    }
+    50% {
+        transform: scale(1) translateY(-6%);  /* Увеличиваем картинку и немного поднимаем */
+        opacity: 0.5;  /* Изображение частично появляется */
+    }
+    100% {
+        transform: scale(1) translateY(0);  /* Возвращаем картинку в исходное положение */
+        opacity: 1;  /* Полная видимость */
+    }
+}
+.ball1 img{
+z-index: 163;
+position: absolute;
+width: 7vw;
+top: 229.2svw;
+left: 24vw;
+animation: rotateImage1 1s linear infinite;  /* Анимация вращения */
+}
+@keyframes rotateImage1 {
+    0% {
+        transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+    }
+    100% {
+        transform: rotate(360deg);  /* Вращение на 360 градусов */
+    }
+}
+.ball2 img{
+z-index: 163;
+position: absolute;
+width: 7vw;
+top: 234.2svw;
+left: 2vw;
+animation: rotateImage2 1s linear infinite;  /* Анимация вращения */
+}
+    @keyframes rotateImage2 {
+    0% {
+        transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+     }
+    100% {
+         transform: rotate(-360deg);  /* Вращение на 360 градусов */
+    }
+}
+
+.ball3 img{
+z-index: 163;
+position: absolute;
+width: 7vw;
+top: 261.2svw;
+left: 2vw;
+animation: rotateImage3 1s linear infinite;  /* Анимация вращения */
+}
+@keyframes rotateImage3 {
+ 0% {
+    transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+}
+ 100% {
+    transform: rotate(360deg);  /* Вращение на 360 градусов */
+}
+}
+
+.ball4 img{
+z-index: 145;
+position: absolute;
+width: 7vw;
+left: 20vw;
+top: 275.2vw;
+animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+ }
+@keyframes rotateImage4 {
+     0% {
+        transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+    }
+     100% {
+        transform: rotate(-360deg);  /* Вращение на 360 градусов */
+    }
+ }
+    .ball5 img{
+        z-index: 163;
+        position: absolute;
+        width: 7vw;
+        top: 229.9svw;
+        left: 70vw;
+        animation: rotateImage5 1s linear infinite;  /* Анимация вращения */
+ }
+@keyframes rotateImage5 {
+         0% {
+            transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+        }
+         100% {
+            transform: rotate(-360deg);  /* Вращение на 360 градусов */
+        }
+}
+ .ball6 img{
+            z-index: 163;
+            position: absolute;
+            width: 7vw;
+            top: 224.9svw;
+            left: 88vw;
+            animation: rotateImage6 1s linear infinite;  /* Анимация вращения */
+ }
+ @keyframes rotateImage6 {
+             0% {
+                transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+            }
+             100% {
+                transform: rotate(360deg);  /* Вращение на 360 градусов */
+            }
+}
+.ball7 img{
+    z-index: 163;
+    position: absolute;
+    width: 7vw;
+    top: 255.9svw;
+    left: 73vw;
+    animation: rotateImage7 1s linear infinite;  /* Анимация вращения */
+    }
+    @keyframes rotateImage7 {
+     0% {
+        transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+    }
+     100% {
+        transform: rotate(360deg);  /* Вращение на 360 градусов */
+    }
+    }
+    .ball8 img{
+        z-index: 163;
+        position: absolute;
+        width: 7vw;
+        top: 275.2svw;
+        left: 75vw;
+        animation: rotateImage8 1s linear infinite;  /* Анимация вращения */
+        }
+        @keyframes rotateImage8 {
+         0% {
+            transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+        }
+         100% {
+            transform: rotate(-360deg);  /* Вращение на 360 градусов */
+        }
+        }   
+        .ball9 img{
+            z-index: 163;
+            position: absolute;
+            width: 7vw;
+            top: 258.9svw;
+            left: 91vw;
+            animation: rotateImage9 1s linear infinite;  /* Анимация вращения */
+            }
+            @keyframes rotateImage9 {
+             0% {
+                transform: rotate(0deg);  /* Начальное положение (0 градусов) */
+            }
+             100% {
+                transform: rotate(-360deg);  /* Вращение на 360 градусов */
+            }
+            } 
+        
+ .stars1 img{
+z-index: 163;
+position: absolute;
+width: 14vw;
+top: 269.2vw;
+left: 3vw;
+animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+}
+.stars2 img{
+    z-index: 163;
+    position: absolute;
+    width: 14vw;
+    top: 247.2vw;
+    left: 12vw;
+    animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+    }
+    .stars3 img{
+        z-index: 163;
+        position: absolute;
+        width: 14vw;
+        top: 235.2vw;
+        left: 61vw;
+        animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+        }
+        .stars4 img{
+            z-index: 163;
+            position: absolute;
+            width: 14vw;
+            top: 233.2vw;
+            left: 85vw;
+            animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+            }
+            .stars5 img{
+                z-index: 163;
+                position: absolute;
+                width: 14vw;
+                top: 269.2vw;
+                left: 85vw;
+                animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+                }
+                .stars6 img{
+                    z-index: 163;
+                    position: absolute;
+                    width: 14vw;
+                    top: 219.2vw;
+                    left: 43vw;
+                    animation: rotateImage4 1s linear infinite;  /* Анимация вращения */
+                    }
+
+.lineofcrack1 img{
+    position: absolute;
+    z-index: 180;
+    top: 285vw;
+    width: 100vw;
+}
+.yup1 img, .yup2 img, .yup3 img, .yup4 img, .yup5 img {
+    overflow: hidden;
+    z-index: 240;
+    position: absolute;
+    top: 293vw;
+    width: 100vw;
+    left: 0vw;
+    animation: fastSwap 2.5s infinite; /* Общая анимация с циклом */
+}
+
+/* Добавляем задержки для каждого изображения */
+.yup2 img {
+    animation-delay: 0.2s; /* Задержка 0.5 секунды */
+}
+.yup3 img {
+    animation-delay: 1s; /* Задержка 1 секунда */
+}
+.yup4 img {
+    animation-delay: 1s; /* Задержка 1.5 секунды */
+}
+.yup5 img {
+    animation-delay: 1.4s; /* Задержка 2 секунды */
+}
+
+/* Анимация смены картинок */
+@keyframes fastSwap {
+    0%, 100% {
+        opacity: 0; /* Картинка невидима */
+    }
+    50% {
+        opacity: 1; /* Картинка видима */
+    }
+}
+
+
+.yap1 img, .yap2 img, .yap3 img, .yap4 img, .yap5 img {
+    z-index: 240;
+    position: absolute;
+    top: 297.5vw;
+    width: 3.3vw;
+    left: 31vw;
+    animation: fastSwap2 3.5s infinite; /* Общая анимация с циклом */
+}
+
+/* Добавляем задержки для каждого изображения */
+.yap2 img {
+    animation-delay: 0.5s; /* Задержка 0.5 секунды */
+}
+.yap3 img {
+    animation-delay: 1s; /* Задержка 1 секунда */
+}
+.yap4 img {
+    animation-delay: 1.5s; /* Задержка 1.5 секунды */
+}
+.yap5 img {
+    animation-delay: 2s; /* Задержка 2 секунды */
+}
+
+/* Анимация смены картинок */
+@keyframes fastSwap2 {
+    0%, 100% {
+        opacity: 0; /* Картинка невидима */
+    }
+    50% {
+        opacity: 1; /* Картинка видима */
+    }
+}
+.yop1 img, .yop2 img, .yop3 img, .yop4 img, .yop5 img {
+    z-index: 240;
+    position: absolute;
+    top: 297.5vw;
+    width: 3.3vw;
+    left: 66.5vw;
+    animation: fastSwap3 3.5s infinite; /* Общая анимация с циклом */
+}
+
+/* Добавляем задержки для каждого изображения */
+.yop2 img {
+    animation-delay: 0.5s; /* Задержка 0.5 секунды */
+}
+.yop3 img {
+    animation-delay: 1s; /* Задержка 1 секунда */
+}
+.yop4 img {
+    animation-delay: 1.5s; /* Задержка 1.5 секунды */
+}
+.yop5 img {
+    animation-delay: 2s; /* Задержка 2 секунды */
+}
+@keyframes fastSwap3 {
+    0%, 100% {
+        opacity: 0; /* Картинка невидима */
+    }
+    50% {
+        opacity: 1; /* Картинка видима */
+    }
+}
+.yep1 img, .yep2 img, .yep3 img, .yep4 img, .yep5 img {
+    overflow: hidden;
+    z-index: 260;
+    position: absolute;
+    top: 333.5vw;
+    width: 100vw;
+    left: 0vw;
+    animation: fastSwap4 2.5s infinite; /* Общая анимация с циклом */
+}
+
+/* Добавляем задержки для каждого изображения */
+.yep2 img {
+    animation-delay: 0.2s; /* Задержка 0.5 секунды */
+}
+.yep3 img {
+    animation-delay: 1s; /* Задержка 1 секунда */
+}
+.yep4 img {
+    animation-delay: 1s; /* Задержка 1.5 секунды */
+}
+.yep5 img {
+    animation-delay: 1.4s; /* Задержка 2 секунды */
+}
+
+/* Анимация смены картинок */
+@keyframes fastSwap4 {
+    0%, 100% {
+        opacity: 0; /* Картинка невидима */
+    }
+    50% {
+        opacity: 1; /* Картинка видима */
+    }
+}
+
+.ybp1 img, .ybp2 img, .ybp3 img, .ybp4 img, .ybp5 img {
+    overflow: hidden;
+    z-index: 260;
+    position: absolute;
+    top: 374vw;
+    width: 100vw;
+    left: 0vw;
+    animation: fastSwap5 2.5s infinite; /* Общая анимация с циклом */
+}
+
+/* Добавляем задержки для каждого изображения */
+.ybp2 img {
+    animation-delay: 0.2s; /* Задержка 0.5 секунды */
+}
+.ybp3 img {
+    animation-delay: 1s; /* Задержка 1 секунда */
+}
+.ybp4 img {
+    animation-delay: 1s; /* Задержка 1.5 секунды */
+}
+.ybp5 img {
+    animation-delay: 1.4s; /* Задержка 2 секунды */
+}
+
+/* Анимация смены картинок */
+@keyframes fastSwap5 {
+    0%, 100% {
+        opacity: 0; /* Картинка невидима */
+    }
+    50% {
+        opacity: 1; /* Картинка видима */
+    }
+}
+.all{
+    position: absolute;
+}
+.candies1 img{
+    position: absolute;
+    z-index: 358;
+    width: 27vw;
+    top: 159.5vw;
+    left: 2vw;
+    transition: opacity 0.3s ease;
+}
+.candies2 img{
+    position: absolute;
+    z-index: 357;
+    width: 27vw;
+    top: 159.5vw;
+    left: 2vw;
+    transition: opacity 0.3s ease;
+}
+.all:hover .candies1 {
+        opacity: 0; /* Скрываем первую картинку */
+}
+.all:hover .candies2 {
+        opacity: 1; /* Показываем вторую картинку */
+}
+.bell1 img {
+    position: absolute;
+    z-index: 367;
+    width: 25vw;
+    top: 341vw;
+    left: 38vw;
+    transform-origin: center top; /* Центр и нижняя часть изображения как точка вращения */
+    animation: pendulumSwing 2s ease-in-out infinite; /* Анимация качания */
+}
+
+@keyframes pendulumSwing {
+    0%, 100% {
+        transform: rotate(-6deg); /* Начальная и конечная позиция: качание влево */
+    }
+    50% {
+        transform: rotate(6deg); /* Позиция в середине анимации: качание вправо */
+    }
+}
+
+.socksmany img{
+    position: absolute;
+    z-index: 367;
+    width: 25vw;
+    top: 341vw;
+    left: 74vw;
+    animation: fadeInSock 1s ease-out infinite /* Эффект растягивания */
+}
+
+@keyframes fadeInSock {
+    0% {
+        opacity: 0; /* Начальная прозрачность */
+    }
+    50% {
+        opacity: 1; /* Прозрачность становится 100% */
+    }
+    100% {
+        opacity: 0; /* Прозрачность снова 0% */
+    }
+}
+.basetoy img{
+    position: absolute;
+    z-index: 367;
+    width: 26vw;
+    top: 298.5vw;
+    left: 1vw;
+}
+
+
+.key1 img, .key2 img { 
+    position: absolute;
+    z-index: 366;
+    width: 5vw;
+    top: 323vw;
+    left: 23.8vw;
+    opacity: 0;  /* Скрываем картинки по умолчанию */
+    animation: changeImages 4s infinite;  /* Анимация длится 4 секунды, повторяется бесконечно */
+    
+}
+
+/* Анимация смены картинок */
+@keyframes changeImages {
+    0%, 100% {
+        opacity: 0;  /* Изображения невидимы в начале и в конце */
+    }
+    50% {
+        opacity: 1;  /* Изображения становятся видимыми на полпути анимации */
+    }
+}
+
+/* Для первой картинки: она появляется первой */
+.key1 img {
+    animation-delay: 0s;  /* Первая картинка появляется сразу */
+}
+
+/* Для второй картинки: она появляется через 2 секунды */
+.key2 img {
+    animation-delay: 2s;  /* Вторая картинка появляется позже, с задержкой 2 секунды */
+}
+
+.snezinka1{
+    position: absolute;
+    z-index: 368;
+    width: 3vw;
+    top: 315vw;
+    left: 18.8vw;
+    animation: rotateSnowflake 4s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.snezinka2{
+    position: absolute;
+    z-index: 368;
+    width: 5vw;
+    top: 312vw;
+    left: 10.8vw;
+    animation: rotateSnowflake 4s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.snezinka3{
+    position: absolute;
+    z-index: 368;
+    width: 7vw;
+    top: 303vw;
+    left: 10.8vw;
+    animation: rotateSnowflake 4s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.snezinka4{
+    position: absolute;
+    z-index: 368;
+    width: 5vw;
+    top: 307vw;
+    left: 5.8vw;
+    animation: rotateSnowflake2 4s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake2 {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(-360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.snezinka5{
+    position: absolute;
+    z-index: 368;
+    width: 3vw;
+    top: 308vw;
+    left: 17.8vw;
+    animation: rotateSnowflake4 3s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake4 {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.snezinka6{
+    position: absolute;
+    z-index: 368;
+    width: 3vw;
+    top: 316vw;
+    left: 6.8vw;
+    animation: rotateSnowflake6 3s linear infinite;  /* Анимация вращения, бесконечно */
+}
+
+/* Анимация вращения снежинки */
+@keyframes rotateSnowflake6 {
+    0% {
+        transform: rotate(0deg);  /* Начальное состояние */
+    }
+    100% {
+        transform: rotate(360deg); /* Полный поворот на 360 градусов */
+    }
+}
+.winda img{
+    position: absolute;
+    z-index: 368;
+    width: 25vw;
+    top: 299vw;
+    left: 37.8vw;
+}
+.flaketowinda img {
+    position: absolute;
+    z-index: 367;
+    width: 21vw;
+    top: 0vw;  /* Начальная позиция */
+    left: 39.8vw;
+    animation: fallDown 5s linear infinite;  /* Анимация падения, повторяется бесконечно */
+}
+
+/* Анимация падения снежинки вниз */
+@keyframes fallDown {
+    0% {
+        transform: translateY(300vw);  /* Начальная позиция */
+    }
+    100% {
+        transform: translateY(303vw); /* Падает вниз на 100% высоты экрана */
+    }
+}
+.ballseve1 img {
+    position: absolute;
+    z-index: 367;
+    width: 27vw;
+    top: 293.3vw; /* Начальная позиция */
+    left: 73.8vw;
+    animation: bounceBall 3s ease-in-out infinite; /* Анимация прыжка */
+}
+
+/* Анимация прыжка */
+@keyframes bounceBall {
+    0%, 100% {
+        transform: translateY(0); /* Исходное положение */
+    }
+    50% {
+        transform: translateY(3vw); /* Поднимается вверх на 20vw */
+    }
+}
+.toysz3{
+    position: absolute;
+}
+.theend img{
+    position: absolute;
+    z-index: 367;
+    width: 100vw;
+    top: 197.6vw; /* Начальная позиция */
+    left: 0vw; 
+}
+.theend2 img{
+    position: absolute;
+    z-index: 366;
+    width: 100vw;
+    top: 197.6vw; /* Начальная позиция */
+    left: 0vw; 
+}
+.toysz3:hover .theend img {
+    opacity: 0; /* Скрываем первую картинку */
+}
+.toysz3:hover .theend2 img{
+    opacity: 1; /* Показываем вторую картинку */
+}
+.base22 img{
+    position: absolute;
+    z-index: 366;
+    width: 100vw;
+    top: 396vw; /* Начальная позиция */
+    left: 0vw; 
+}
+.name2 h2 {
+    font-size: 36px; 
+    font-family: 'YesevaOne'; 
+    color: #fff; 
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    text-shadow: 2px 2px 5px rgba(211, 224, 251, 0.3); 
+}
